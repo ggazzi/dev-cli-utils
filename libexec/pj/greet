@@ -1,5 +1,0 @@
-#!/usr/bin/env bash
-#
-# Summary: Greet the world.
-
-echo "Hello, world!"

@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#
+# Summary: List local projects
+
+set -e
+
+for name in $WORKSPACE/*/*
+do
+  # Remove workspace prefix
+  echo ${name#"$WORKSPACE/"}
+done
