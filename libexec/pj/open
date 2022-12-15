@@ -16,6 +16,7 @@ set -e
 # Provide completions
 if [ "$1" = "--complete" ]; then
   dev pj list
+  exit 0
 fi
 
 project="$1"
