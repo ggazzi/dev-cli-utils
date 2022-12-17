@@ -37,4 +37,6 @@ then
 fi
 
 # Open the project for development
-dev pj open "$project"
+if [ "$2" = "--open" ]; then
+  dev pj open "$project"
+fi
